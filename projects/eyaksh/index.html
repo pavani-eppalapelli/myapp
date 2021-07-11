@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>w3.css</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<style type="text/css">
+		header{
+			display: flex;
+			justify-content: center;
+		}
+		header .content{
+			text-align: center;
+		}
+		header .text{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		header img{
+			width: 100px;
+		}
+		.form form{
+			border : 1px solid grey;
+			padding: 20px 20px;
+		}
+		form .file{
+			margin-bottom: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		form .file span, form .file input{
+			width: max-content;
+		}
+		form .file span{
+			margin-right: 20px;
+		}
+		form .btns{
+			margin-top: 20px;
+			display: flex;
+			justify-content: space-around;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<header>
+		<div class="content">
+			<img src="logo.jpg">
+			<div class="text">Customer Self-booking - Dr. Ashok C</div>
+		</div>
+	</header>
+	<br />
+	<section class="form">
+		<div class="container">
+			<form>
+				  <div class="mb-3 row">
+				    <label for="inputPhone" class="col-sm-2 col-form-label">Customer Phone#*</label>
+				    <div class="col-sm-10">
+				      <input type="number" class="form-control" id="inputPhone">
+				    </div>
+				    <div class="text-center mt-2">
+				    	<button class="btn btn-primary">Check Customer</button>
+				    </div>
+				  </div>
+				  <div class="mb-3 row">
+				    <label for="inputName" class="col-sm-2 col-form-label">Customer Name*</label>
+				    <div class="col-sm-10"> 
+				    	<input type="text" class="form-control" id="inputName">
+				    </div>
+				  </div>
+				     
+				  <div class="mb-3 row">
+				    <label for="inputAddress" class="col-sm-2 col-form-label">Customer Address*</label>
+				    <div class="col-sm-10">
+				    	<textarea class="form-control" style="width: 100%;" placeholder="Enter a Location"></textarea>
+				    </div>
+				  </div>
+				   <div class="mb-3 row">
+				    <label for="inputName" class="col-sm-2 col-form-label">Gender*</label>
+				    <div class="col-sm-10">
+				    	<select class="form-control">
+				    		<option value="">Select</option>
+				    		<option value="Male">Male</option>
+				    		<option value="Female">Female</option>
+				    		<option value="Other">Other</option>
+				    	</select>
+				    </div>
+				    </div>
+				     <div class="mb-3 row">
+				    <label for="inputName" class="col-sm-2 col-form-label">DOB*</label>
+				    <div class="col-sm-10">
+				    	<input type="date" class="form-control" id="inputName">
+				    </div>
+				    </div>
+				     <div class="mb-3 row">
+				    <label for="inputName" class="col-sm-2 col-form-label">Email*</label>
+				    <div class="col-sm-10">
+				    	<input type="mail" class="form-control" id="inputName">
+				    </div>
+				    </div>
+				     <div class="mb-3 row">
+				    <label for="inputphone" class="col-sm-2 col-form-label">Select date and time*</label>
+				    <div class="col-sm-10">
+				    	<input type="datetime-local" class="form-control" id="inputName">
+				    </div>
+				    </div>
+				     <div class="mb-3 row">
+				    <label for="inputName" class="col-sm-2 col-form-label">Select test*</label>
+				    <div class="col-sm-10">
+				    	<select name="selectedTests" multiple="multiple" onchange="" class="medtests form-control">
+				    		<option value="2918">17 ALPHA-HYDROXY PROGESTERONE @ 1500</option>
+							<option value="2919">24 HR URINE CREATININE CLEARANCE @ 600</option>
+							<option value="2920">ABS. GRANULOCYTE COUNT @ 300</option>
+							<option value="2921">ABSOLUTE BASOPHIL COUNT @ 300</option>
+							<option value="2922">ABSOLUTE EOSINOPHIL COUNT @ 300</option>
+							<option value="2923">ABSOLUTE LEUCOCYTE COUNT @ 500</option>
+							<option value="2924">ABSOLUTE LYMPHOCYTE COUNT @ 300</option>
+							<option value="2925">ABSOLUTE MONOCYTE COUNT @ 300</option>
+							<option value="2926">ABSOLUTE NEUTROPHIL COUNT @ 300</option>
+						</select>
+				    </div>
+				    </div>
+				     <div class="mb-3 row">
+				    <label for="inputName" class="col-sm-2 col-form-label">Comments*</label>
+				    <div class="col-sm-10">
+				    	<input type="text" class="form-control" id="inputName">
+				    </div>
+				    </div>			
+		  			<div class="mb-3 row">
+				    <label for="inputName" class="col-sm-2 col-form-label">Upload prescriptions*</label>
+				    <div class="col-sm-10">
+				    	<div class="file">
+				    		<span>Pres 1</span><input type="file" class="form-control" id="inputName">
+				    	</div>
+				    	<div class="file">
+				    		<span>Pres 2</span><input type="file" class="form-control" id="inputName">
+				    	</div>
+				    	<div class="file">
+				    		<span>Pres 3</span><input type="file" class="form-control" id="inputName">
+				    	</div>
+				    	<div class="text-center">File must be lest than 2MB each</div>
+				    </div>
+				    <div class="col-sm-10 btns">
+				    	<button class="btn btn-primary">Clear</button>
+				    	<button class="btn btn-primary">Book Appointment</button>
+				    </div>
+				    </div>		
+				</form>
+	</section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
