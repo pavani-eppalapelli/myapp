@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>wood m4</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <style>
+         .nav-link{
+         color: black;
+         font-size: 14px; 
+         position: fixed;
+         }
+         .nav{
+         width: 100%;
+         }
+         .bg-light {
+    background-color: #f1eeea;
+}
+         .navbar-brand img {
+         width: 40%;
+         height: auto;
+         }
+         .bg-img{
+         background-image: url("file:///C:/Users/DELL.000/Downloads/background18.jpg");
+         background-repeat: no-repeat;
+         background-size: : cover;
+         padding-top: 135px;
+         padding-bottom: 135px;
+         width: 100%;
+         height:500px;
+         display: flex;
+         justify-content: center;
+         }
+         .features{
+          padding-top:60px;
+                  padding-bottom: 60px;
+                  background-color: #f1eeea;
+               }
+               .features h2{
+         font-size: 2.6rem;
+         line-height: 1.3;
+         align-items: center;
+         text-align: center;
+         font-weight: 500;
+                 }  
+         .mbr-white {
+         color: #ffffff;
+         text-align: center;
+         align-items: center;
+         }
+         .btn-primary, .btn-primary:active {
+         background-color: #b69b74 ;
+         border-color: #b69b74 ;
+         color: #ffffff ;
+         }
+         
+         .features h3 {
+         font-size: 1.2rem;
+         width: 50rem;
+         margin-left: auto;
+         margin-right: auto;
+         line-height: 1.2;
+         }
+         .card-title{
+         font-family: 'Reem Kufi', sans-serif;
+         font-size: 2.4rem;
+         }
+         .card-text{
+         font-family: 'Muli', sans-serif;
+         font-size: 1.2rem;
+         }
+         .card-img-top{
+         height: 240px;
+         }
+         .wp img {
+         width: 100%;
+         object-fit: cover;
+         height: 90%;
+      }
+         .wp h3 {
+         font-size: 70px;
+    line-height: 1.3;
+         }
+         .wp p{
+            text-align: left;
+            font-size: 1.6rem;
+         }
+         .wp li{
+         padding-bottom: 1rem;
+         line-height: 1.4;
+         color: #b69b74;
+      }
+      .wp section{
+            padding-top: 60px;
+            padding-bottom: 60px;
+         }
+         .products h3{
+            text-align: center;
+            align-items:center;
+            justify-content: center;
+         }
+         .products p{
+                color: #767676;
+                font-size: 1.2rem;
+                width: 50rem;
+                line-height: 1.3rem;
+                 margin-right: auto;
+                  margin-left: auto;
+               }
+               .wd h4 {
+                  line-height: 1;
+                  font-size: 1.6rem;
+               }
+               .materials h2{
+                  font-size: 5.2rem;
+                  line-height: 1.2;
+                  color: #ffffff;
+               }
+               .materials h3{
+                  font-size: 1.6rem;
+                  line-height: 1.3;
+                  color: #ffffff;
+               }
+               .materials{
+                   padding-top: 60px;
+               padding-bottom:60px;
+               background-color: #656b50;
+               }
+               .woodworks{
+                   padding-top: 60px;
+               padding-bottom:60px;
+               background-color: #f1eeea;
+            }
+               .woodworks li{
+                  margin-bottom: 0.4rem;
+                  font-size: 1.2rem;
+                  line-height: 1.6;
+               }
+               .woodworks img{
+                  width:100%;
+                  height: auto;
+               }
+               .woodworks p{
+                  font-size: 1.6rem;
+                  line-height: 1.2;
+                  margin-bottom: 1rem;
+               }
+               .woodworks div{
+                  font-size: 1.4rem;
+                  line-height: 1.2;
+                  margin-bottom: 1rem;
+               }
+               .woodworks h2{
+                  font-size: 5.2rem;
+                  line-height: 1.2;
+                  font-weight: 700;
+               }
+               .nm{
+               padding-top: 60px;
+                padding-bottom: 60px;
+                 background-color: #f1eeea;
+                 }
+                  .wp{
+                     padding-top: 60px;
+                      padding-bottom: 60px;
+                      background-color: #f1eeea;
+                 }
+                 .products{
+                  padding-top:60px;
+                  padding-bottom: 60px;
+                  background-color: #f1eeea;
+                 }
+                 .wd{
+                  padding-top:60px;
+                  padding-bottom: 60px;
+                  background-color: #f1eeea;
+                 }
+                 .bg-img h1{
+                  font-size: 1rem;
+                  text-align: center;
+                  justify-content: center;
+                 }
+                 .nm h4{
+                  color: #b69b74;
+                  font-size: 1.2rem;
+                 }
+                 section{
+                  padding-top: 2rem;
+                  padding-bottom: 2rem;
+                 }
+                 section.image1{
+                 background-image: url(trees.jpg);
+                 height:500px;
+                 padding-top:60px;
+                  padding-bottom: 60px;
+              }
+              .ipsum{
+                background-color: #f1eeea;
+              }
+              .ipsum h3{
+               font-size: 2.4rem;
+               line-height: 1.2;
+              }
+              .ipsum p{
+               font-size: 1.2rem;
+               line-height: 1.6;
+              }
+              .ipsum h2{
+               font-size: 5.2rem;
+               line-height: 1.2;
+              }
+              .address img{
+               text-align: center;
+           }
+           footer{
+            color: white;
+            padding-top: 5rem;
+            background-color: #2a2525;
+           }    
+            footer .img{
+               text-align: center;
+            }
+            .footer-columns{
+               margin-top: 2rem;
+               margin-bottom: 2rem;
+            }      
+            .footer-columns .title{
+               color: #b69b74;
+               font-size: 30px;
+            }
+            .footer-columns p{
+               color: white;
+            }
+            .footer-columns .col-md-4{
+               text-align: center;
+            }
+            footer .copy{
+               background-color: #211c1c;
+               text-align: center;
+               color: white;
+               font-size: 20px;
+               padding-top: 15px;
+               padding-bottom: 15px;
+            }
+            header .navbar-brand{
+               display: flex;
+               align-items: center;
+            }
+            header .navbar-brand img{
+               width: 50px;
+            }
+            header .brand-name{
+              margin-left: 10px;
+               font-size: 3rem;
+               font-weight: bold;
+            }
+            header{
+              width: 100%;
+              position: fixed;
+              top: 0;
+            }
+            header .btn-outline-primary{
+              color: #816843;
+              border-color: #816843;
+
+            }
+      </style>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container-fluid">
+         <a class="navbar-brand" href="#">
+            <img src="https://mobirise.com/extensions/woodm4/assets/images/logo2.png">
+            <span class="brand-name">WoodM4</span>
+         </a> 
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>   
+            <span class="navbar-caption-wrap"></span>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <ul class="nav justify-content-end">
+                     <a class="btn btn-"  href="#" role="button" data-bs-toggle=downlink aria-expanded="false">
+                     Home
+                     </a>
+                     <div class="dropdown">
+                        <a class="btn btn-primar dropdown-toggle"  href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Live Demo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                           <li><a class="dropdown-item" href="#">Wooden workshop</a></li>
+                           <li><a class="dropdown-item" href="#">Wooden furniture store</a></li>
+                        </ul>
+                     </div>
+                     <div class="dropdown">
+                        <a class="btn btn-primar dropdown-toggle"  href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Live Demo Blocks
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                           <li><a class="dropdown-item" href="#">Headers/features/content</a></li>
+                           <li><a class="dropdown-item" href="#">Slider/Shop/Team</a></li>
+                        </ul>
+                     </div>
+                  </ul>
+                  <a class="btn btn-outline-primary"  href="#" role="button" data-bs-toggle=downlink aria-expanded="false">
+                     BUY&nbsp;NOW
+                     </a>
+            </div>
+      </header>
+      </ul>
+      </nav>
+      <div id="banner">
+         <section class="bg-img">
+            <div class="mbr-white col-lg-7 col-md-12">
+               <h2 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">WoodM4 Theme</h2>
+               <h1>Wood HTML Template</h1>
+               <p class="mbr-text pb-4 align-left mbr-fonts-style display-7">
+                  Have a carpentry shop, forestry manufacture or timber company? <br>This theme helps you present your woodworks excellently.
+               </p>
+               <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="index.html#features01-14">LIVE DEMO</a>
+                  <a class="btn btn-md btn-primary display-4" href="https://my.mobirise.com/buy.php?p=75&amp;mbrui=undefined">BUY NOW</a>
+               </div>
+            </div>
+         </section>
+      </div>
+      <section class="features">
+         <div class="container-fluid">
+            <h2>Our Features </h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Fusce ornare risus vel tellus tempor tempor. Suspendisse ut lobortis sem, aliquam consequat nisi.</h3>
+         </div>
+      </section>
+      <section class="nm">
+      <div class="container">
+               <div class="card-group">
+  <div class="card">
+    <img src="04.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Natural Materials</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare risus vel tellus tempor tempor. Suspendisse ut lobortis sem, aliquam consequat nisi. Praesent ac scelerisque nulla.</p>
+      <h4>View More</h4>
+    </div>
+  </div>
+  <div class="card">
+    <img src="03.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Unique Design</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare risus vel tellus tempor tempor. Suspendisse ut lobortis sem, aliquam consequat nisi. Praesent ac scelerisque nulla.</p>
+      <h4>View More</h4>
+    </div>
+  </div>
+  <div class="card">
+    <img src="02.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Eco Production</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare risus vel tellus tempor tempor. Suspendisse ut lobortis sem, aliquam consequat nisi. Praesent ac scelerisque nulla.</p>
+      <h4>View More</h4>
+    </div>
+  </div>
+</div>
+               
+      </section>
+      </section>
+      <section class="wp">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <img src="004.jpg" class="" alt="">
+               </div>
+               <div class="col-md-7">
+                <h3> Wooden Products</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse metus odio, semper in mi eget.</p>
+<div class="row">
+   <div class="col-md-6">
+      <ol  class="list1">
+         <li>Lorem ipsum dolor sit amet consectetur </li>
+         <li>Duis mollis ante sit amet est ullamcorper mattis. Ut pulvinar tincidunt ex, ac cursus quam convallis a. Phasellus varius cursus magna eget</li>
+         <li>Sed nec finibus velit. Integer eros mi, molestie quis maximu at, sagittis vel nisi consequat </li>
+         <li>Sed feugiat a ipsum vel sodales</li>
+      </ol>
+   </div>
+   <div class="col-md-6">
+      <ol class="list2">
+         <li>Vivamus laoreet posuere elit eget sagittis. Aliquam massa est, tempus nisi consequat
+         <li>Fusce facilisis, ex quis venenatis</li>
+         <li>Praesent eget metus id quam auctor venenatis. Nullam tempor, sapien nec posuere feugiat, nulla sapien gravida turpis, non mollis</li>
+         <li>Nullam congue sed enim fermentum</li> 
+      </ol>     
+   </div>
+</div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="products">
+         <div class="container-fluid">
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h3>Natural Materials</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+    </div>
+    <div class="carousel-item">
+      <h3>Unique Designs</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+    </div>
+    <div class="carousel-item">
+    <h3>Hand Made Products</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+</section>
+<section class="wd">
+   <div class="container">
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="1.jpg" class="card-img-top" alt="a">
+      <div class="card-body">
+        <h4 class="card-title">Wood Figure</h4>
+        <span class="card-text">$27</span>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="004.jpg" class="card-img-top" alt="b">
+      <div class="card-body">
+        <h4 class="card-title">Table Accecories</h4>
+       <span class="card-text">$87</span>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="3.png" class="card-img-top" alt="c">
+      <div class="card-body">
+        <h4 class="card-title">Diner Table</h4>
+        <span class="card-text">$14</span>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="4.jpg" class="card-img-top" alt="d">
+      <div class="card-body">
+        <h4 class="card-title">Wooden Dishes</h4>
+        <span class="card-text">$37</span>
+      </div>
+    </div>
+  </div>
+</div>  
+</div>
+</section>
+<section class="materials">
+   <div class="container">
+<div class="clearfix">
+  <img src="004.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="hh">
+  <h2>Only Natural Materials</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse metus odio, semper in mi eget, tempus gravida lacus. Vivamus in cursus lectus. Nullam accumsan turpis erat, nec mollis purus molestie at. Pellentesque sed ligula elementum, luctus quam ut, feugiat libero.</h3>
+</div>
+</div>
+</section>
+<section class="woodworks">
+            <div class="container">
+              <div class="row">
+               <div class="col-md-5">
+                  <h2>why you<br>should<br>choose us?</h2>
+                  <img src="03.jpg" class="" alt="">
+               </div>
+               <div class="col-md-7">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse metus odio, semper in mi eget, tempus gravida lacus. Vivamus in cursus lectus.</p>
+<h3>Natural Materials Features.</h3>
+<div class="row">
+   <div class="col-md-6">
+      <ul>
+         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+         <li>Fusce ornare risus vel tellus tempor tempor</li>
+         <li>Suspendisse ut lobortis sem </li>
+         <li>Praesent ac scelerisque nulla</li>
+         <li>Maecenas sed magna quis leo fringilla molestie</li>
+<li>Praesent ultrices augue a dapibus tempus</li>
+<li>Aliquam egestas faucibus ullamcorper</li>
+<li>Phasellus euismod accumsan pretium</li>
+      </ul>
+   </div>
+    <div>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse metus odio, semper in mi eget, tempus gravida lacus. Vivamus in cursus lectus. Nullam accumsan turpis erat, nec mollis purus molestie at. Pellentesque sed ligula elementum, luctus quam ut, feugiat libero.</div>
+            </div>
+   </section>
+   <section class="image1"></section>
+   <section class="ipsum">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h2>Contacts</h2>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487293.2774677608!2d78.12784000692413!3d17.412808363619543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1635743991557!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               </div>
+               <div class="col-md-6">
+                <h3> Unique Wood Products</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales Dellentesque felis, in dignissim diam eleifend.</p>
+<span>support@mobirise.com<br>
+0435-35 32 78<br><br><strong>Address:</strong><br>
+1234 Street Name<br>
+City, AA 99999<br><br><strong>Contacts:</strong><br>
+Phone: +1 (0) 000 0000 001<br>
+Fax: +1 (0) 000 0000 002<br>
+</span>
+   </div>
+</div>
+         </div>
+</section>
+<footer>
+   <div class="img">
+      <img src="logo2.png">
+   </div>
+   <div class="row footer-columns">
+      <div class="col-md-4">
+         <div class="title">
+            Office
+         </div>
+         <p>New York<br />8345 State</p>         
+      </div>
+      <div class="col-md-4">
+         <div class="title">
+            Contacts
+         </div>
+         <p>00-2374-34874-3487<br />support@mobirise.com</p>         
+      </div>
+      <div class="col-md-4">
+         <div class="title">
+            Addreess
+         </div>
+         <p>7434<br />Staten Island</p>         
+      </div>
+   </div>  
+   <div class="copy">
+      © Copyright 2019 Mobirise - Furniture Website Template - All Rights Reserved
+   </div> 
+</footer>
+   </body>
+</html>
